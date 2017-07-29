@@ -1,0 +1,194 @@
+[
+	{
+		"id": 1,
+		"nombre": "Micromédica Epsilon",
+		"descripcion": "<b>Micromédica Epsilon</b> es una empresa dedicada a la fabricación, importación y reparación de instrumental oftalmológico y óptico. <br> Posee un laboratorio electrónico-mecánico y un grupo de profesionales de la ingeniería dedicados al desarrollo y asistencia técnica de los productos comercializados.",
+		"foto": "yeoman.png",
+		"productos": [{
+			"nombre": "Optimus",
+			"categoria": "Facoemulsificador",
+			"descrip": null,
+			"foto": "images/productos/Optimus-frente.jpg"
+		},{
+			"nombre": "Optimus II",
+			"categoria": "Facoemulsificador",
+			"descrip": null,
+			"foto": "images/productos/Optimus2frente.jpg"
+		}]
+	},{
+		"id": 2,
+		"nombre": "Shin Nippon",
+		"link": "http://www.shin-nippon.jp/",
+		"descripcion": "Shin Nippon es la marca internacional de los productos fabricados en Japón por la empresa RyuSyo Industrial Co. durante más de 50 años y en la actualidad, desde 2010, por la empresa Rexxam. <br> Desde sus comienzos la empresa se ha dedicado a la fabricación de equipamiento médico oftalmológico de diagnóstico y equipamiento óptico. <br> Es una empresa reconocida en el mercado por su extensa trayectoria y la calidad inconfundible de sus productos.",
+		"foto": "shinnippon.png",
+		"productos": [{
+			"nombre": "SL-40",
+			"categoria": "Lámpara de hendidura",
+			"descrip": "<a href='files/lamparahendidura-SL40.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/lamparahendidura-SL40.jpg"
+		},{
+			"nombre": "SL-45DX",
+			"categoria": "Lámpara de hendidura",
+			"descrip": null,
+			"foto": null
+		},{
+			"nombre": "SL-102",
+			"categoria": "Lámpara de hendidura",
+			"descrip": null,
+			"foto": null
+		},{
+			"nombre": "SL-203",
+			"categoria": "Lámpara de hendidura",
+			"descrip": null,
+			"foto": null
+		},{
+			"nombre": "SL-500",
+			"categoria": "Lámpara de hendidura",
+			"descrip": null,
+			"foto": null
+		},{
+			"nombre": "XL-1",
+			"categoria": "Lámpara de hendidura",
+			"descrip": null,
+			"foto": null
+		},{
+			"nombre": "K-900",
+			"categoria": "Autorefractokeratómetro",
+			"descrip": "<a href='files/autorefractoqueratometro.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/autorefractoqueratometro.jpg"
+		},{
+			"nombre": "OP-2",
+			"categoria": "Microscopio quirúrgico",
+			"descrip": "<a href='files/microscopioquirurgico-op2.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/microscopioquirurgico-op2.jpg"
+		},{
+			"nombre": "NCT-200",
+			"categoria": "Tonómetro de no contacto",
+			"descrip": "<a href='files/tonometronocontactontc200.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/tonometronocontactontc200.jpg"
+		},{
+			"nombre": "LM-15",
+			"categoria": "Lensómetro manual",
+			"descrip": "<a href='files/lensometromanual-lm15.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/lensometromanual-lm15.jpg"
+		},{
+			"nombre": "DL-900",
+			"categoria": "Lensómetro digital",
+			"descrip": "<a href='files/lensometrodigital.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/lensometrodigital.jpg"
+		},{
+			"nombre": "CT-1000",
+			"categoria": "Topógrafo corneal",
+			"descrip": null,
+			"foto": null
+		},{
+			"nombre": "CP-500",
+			"categoria": "Proyector de optotipos",
+			"descrip": null,
+			"foto": null
+		},{
+			"nombre": "DR-900",
+			"categoria": "Foróptero digital",
+			"descrip": "<a href='files/Foroptero900.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/Foroptero900.jpg"
+		},{
+			"nombre": "RET-700",
+			"categoria": "Autorefractokeratómetro con topógrafo",
+			"descrip": null,
+			"foto": null
+		},{
+			"nombre": "SPM-700",
+			"categoria": null,
+			"descrip": null,
+			"foto": null
+		}]
+	},{
+		"id": 3,
+		"nombre": "DGH",
+		"link": "http://dghtechnology.com/",
+		"descripcion": "DGH Technology Inc. es una empresa fundada en Estados unidos en 1982, dedicada exclusivamente a la medición ultrasónica de parámetros oculares. <br> Entre sus productos se pueden encontrar paquímetros, reglas biométricas y ecógrafos oculares. <br> Desde 1982 ha comercializado más de 25000 productos en más de 50 países.",
+		"foto": "dgh.png",
+		"productos": [{
+			"nombre": "DGH-6000",
+			"categoria": "Regla biométrica",
+			"descrip": "<a href='files/reglabiometricaDHG6000.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/reglabiometricaDHG6000.png"
+		},{
+			"nombre": "PACHETTE 4",
+			"categoria": "Paquímetro",
+			"descrip": "<a href='files/paquimetro.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/paquimetro.png"
+		},{
+			"nombre": "DGH-8000",
+			"categoria": "Ecógrafo",
+			"descrip": "<a href='files/ecografo.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/ecografo.jpg"
+		}]
+	},{
+		"id": 4,
+		"nombre": "Medmont",
+		"link": "http://www.medmont.com/",
+		"descripcion": "Medmont es una empresa australiana fundada en 1988 y dedicada a la fabricación de campímetros y topógrafos oftalmológicos. <br> Desde sus inicios se ha caracterizado por la gran precisión y facilidad de uso de sus productos.",
+		"foto": "medmont2.png",
+		"productos": [{
+			"nombre": "M-700",
+			"categoria": "Campímetro",
+			"descrip": "<a href='files/Campimetro700.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/Campimetro700.jpg"
+		},{
+			"nombre": "E300",
+			"categoria": "Topógrafo corneal",
+			"descrip": null,
+			"foto": "images/productos/topografo.jpg"
+		}]
+	},{
+		"id": 5,
+		"nombre": "ARC Laser",
+		"link": "http://www.arclaser.de/",
+		"descripcion": "A.R.C.LASER es una empresa alemana especializada en el desarrollo y producción de tecnología médica láser. <br> En sus comienzos en el año 1978, con el nombre de Meditec GmbH,  desarrollaron el primer láser ND:YAG para la cirugía de catarata secundaria marcando un hito en la historia de la oftalmología. <br> Poco después siguió el Meditec Excimer Laser para el tratamiento refractivo de los ojos y luego su sucesor el MEL80 de Carl Zeiss Meditec. <br> Hoy A.R.C. LASER ofrece una amplia gama de productos láser para oftalmología cubriendo todas las expectativas del mercado, además de ofrecer equipamiento láser para muchas otras especialidades médicas.",
+		"foto": "arc2.png",
+		"productos": [{
+			"nombre": "CLASSIC diodo pumped frequency doubled Nd:YAG laser 532 nm (green)",
+			"categoria": "CLASSIC 532 nm",
+			"descrip": "<a href='http://www.arclaser.de/en/products/slt-laser-cito-532.html' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/Yaglaser.png"
+		},{
+			"nombre": "Q-LAS PCL5 Z nd:YAG Laser",
+			"categoria": "YAG-Laser 1064 nm",
+			"descrip": "<a href='files/Yaglaser.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/Yaglaser.png"
+		},{
+			"nombre": "FOX 810 nm",
+			"categoria": "810 nm",
+			"descrip": "<a href='files/fox.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/fox.jpg"
+		},{
+			"nombre": "CETUS Q-switched Real laser cataract surgery",
+			"categoria": "Nano laser (phaco laser)",
+			"descrip": "<a href='files/nanolaser.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/nanolaser.jpg"
+		},{
+			"nombre": "CITO frequency doubled Q-switch Nd:YAG Laser 532 nm",
+			"categoria": "CITO 532 nm Microchip tech",
+			"descrip": "<a href='http://www.arclaser.de/en/products/slt-laser-cito-532.html' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/cito.png"
+		},{
+			"nombre": "ENDO 514 nm",
+			"categoria": "Argon wavelenght",
+			"descrip": null,
+			"foto": null
+		}]
+	},{
+		"id": 6,
+		"nombre": "Meccanottica Mazza",
+		"link": "http://www.meccanotticamazza.com/",
+		"descripcion": "Meccanottica Mazza es una empresa fundada en Italia en 1981, dedicada exclusivamente a la fabricación de unidades oftalmológicas. <br> Posee una enorme variedad de productos que cubren ampliamente todas las necesidades del mercado. <br> Sus productos de línea permiten la  selección de colores y el agregado de accesorios como así también la selección de distintos tipos de mesas y sillas. <br> La calidad de los productos es excelente y los diseños son de vanguardia.",
+		"foto": "meccanottica.png",
+		"productos": [{
+			"nombre": "10.010.00/ONE",
+			"categoria": "Columna para refracción",
+			"descrip": "<a href='files/10.010.00ONE.pdf' target='_blank'>Link a descripción</a>",
+			"foto": "images/productos/10.010.00ONE.jpg"
+		}]
+	}
+]

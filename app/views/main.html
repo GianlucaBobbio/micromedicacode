@@ -1,0 +1,45 @@
+<div class="container-fluid">
+    <div class="row bg-faded py-2">
+        <div class="col">
+            <!-- <div class="row pb-2"><div class="col text-center grey-small font-italic">Representamos</div></div> -->
+            <div class="row py-1" style="height: 40px;">
+                <div class="col"></div>
+                <div ng-repeat="marca in marcas | filter: {id : '!1'} | orderBy: 'nombre'" class="background-contain col partners-logo mx-2" ng-style="{'background-image': 'url(images/{{marca.foto}})'}" ng-show="marca.foto != null"></div>
+                <!-- <div class="background-contain col partners-logo" style="background-image:url(images/yeoman.png);"></div> -->
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div style="display: none;">
+        <slick infinite="true" autoplay="true" dots="true">
+            <div style="background-image:url(images/yeoman.png); background-repeat: no-repeat; height: calc(100vh - 304px); background-position: center;"></div>
+            <div style="background-image:url(images/yeoman.png); background-repeat: no-repeat; height: calc(100vh - 304px); background-position: center;"></div>
+            <div style="background-image:url(images/yeoman.png); background-repeat: no-repeat; height: calc(100vh - 304px); background-position: center;"></div>
+            <div style="background-image:url(images/yeoman.png); background-repeat: no-repeat; height: calc(100vh - 304px); background-position: center;"></div>
+        </slick>
+    </div>
+    <div class="row m-t-50">
+        <div class="col col-sm-7 p-3">
+            <div class="bg-white p-4">
+                <p class="title b-b pb-3 text-muted"><b>Quiénes Somos</b></p>
+                <p ng-bind-html="marcas[0].descripcion"></p>
+                <p class="text-right">
+                    <a class="nav-link" href="#!/about">Ver más</a>
+                </p>
+            </div>
+        </div>
+        <div class="col col-sm-5 p-3">
+            <div class="bg-white p-4">
+                <p class="title b-b pb-3 text-muted"><b>Empresas representadas</b></p>
+                <p>
+                    <span ng-repeat="marca in marcas | filter: {id : '!1'} | orderBy: 'nombre'"> &nbsp · &nbsp {{marca.nombre}}<br></span>
+                </p>
+                <p class="text-right">
+                    <a class="nav-link" href="#!/partners">Ver más</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css" />
+    <!-- endbower -->
+    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css" />
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body ng-app="micromedicaApp" class="bg-more-faded">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- Add your site or application content here -->
+    <div class="header mb-0">
+        <div class="navbar navbar-toggleable-md navbar-primary navbar-inverse bg-primary" role="navigation">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand logo ml-5" href="#" style="font-size: 2rem;">
+                <!-- <div class="logo"></div> -->
+                <span>Micromédica Epsilon</span>
+            </a>
+            <div class="collapse navbar-collapse py-4" id="navbarSupportedContent" name="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mr-5">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#!/about">Quiénes Somos</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#!/productos">Productos</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#!/partners">Empresas Representadas</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#!/contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div ng-view=""></div>
+    <!-- <div class="footer">
+        <div class="container">
+            <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        </div>
+    </div> -->
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+    ! function(A, n, g, u, l, a, r) {
+        A.GoogleAnalyticsObject = l, A[l] = A[l] || function() {
+                (A[l].q = A[l].q || []).push(arguments)
+            }, A[l].l = +new Date, a = n.createElement(g),
+            r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+    }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+    </script>
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/slick-carousel/slick/slick.js"></script>
+    <script src="bower_components/angular-slick-carousel/dist/angular-slick.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/productos.js"></script>
+    <script src="scripts/controllers/contact.js"></script>
+    <script src="scripts/controllers/partners.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row my-4">
+        <div class="col-md-6">
+            <p>Correo: <b>micromedicaepsilon@gmail.com</b></p>
+            <p>Teléfono: <b>(54-11) 4686-0052 / 0175</b></p>
+            <p>Dirección: <b>Saladillo 2579 (1440) Capital Federal</b></p>
+            <!-- <div class="form-group">
+                <label for="email"><b>Email</b><span class="text-danger">*</span></label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" ng-disabled="sended" ng-model="email">
+            </div>
+            <div class="form-group">
+                <label for="mensaje"><b>Mensaje</b><span class="text-danger">*</span></label>
+                <textarea rows="5" class="form-control" id="mensaje" aria-describedby="mensajeHelp" ng-disabled="sended" ng-model="mensaje"></textarea>
+                <small id="emailHelp" class="form-text text-muted">Por favor completar con su nombre, ubicación y datos de contacto.</small>
+            </div>
+            <div class="form-button-wrapper form-button-wrapper--align-right">
+                <button class="btn btn-primary" id="sendMessage" ng-click="sended = true" ng-hide="sended" ng-disabled="!email || !mensaje">Enviar</button>
+            </div>
+            <div ng-show="sended">
+                <p><i>Su consulta ha sido enviada con éxito. Será respondido a la brevedad</i></p>
+            </div> -->
+        </div>
+        <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13126.03295677589!2d-58.5092645!3d-34.6671202!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc4e3bc7e0630dcb6!2sMicromedica+Epsilon+SRL!5e0!3m2!1ses-419!2sar!4v1496124286265" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$("#sendMessage").on("click", function() {
+    var email = $("#email").val();
+    var message = $("#message").val();
+    $.ajax({
+        url: "//formspree.io/micromedicaepsilon@gmail.com",
+        method: "POST",
+        data: {
+            email: email,
+            message: message
+        },
+        dataType: "json"
+    });
+    return false;
+});
+</script>

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Iglesia'; /*a name to be used later*/
+    src: url('fonts/iglesia.TTF'); /*URL to font*/
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.navbar{
+	/*box-shadow: 0px 10px 20px -12px rgba(0,0,0,0.6);*/
+    /* border-bottom: 1px solid #0090d7; */
+    /*z-index: 10;*/
+    /*border-left: 5px solid #0090d7; */
+}
+.logo {
+    font-family: 'Iglesia';
+    color: #999;
+}
+.bg-primary-light{
+	background-color: #0090d7;	
+}
+.nav-item{
+	font-size: 1rem;
+}
+
+.background-contain{
+	 background-repeat: no-repeat;
+	 background-size: contain; 
+	 background-position: center;
+}
+
+.partners-logo{
+	 height: 100%;
+	 opacity: 0.3;
+	 filter: grayscale(100%);
+}
+
+.grey-small{
+	color: #ccc;
+    font-size: 0.8rem;
+}
+
+.productos-marca{
+	border-bottom: 1px solid #EEE;
+}
+
+.lista-marcas, .lista-categorias{
+	box-shadow: 6px 0px 10px -10px;
+}
+.lista-marcas{
+	z-index: 5;
+	min-height: calc(100vh - 108px) !important;
+}
+.lista-categorias{
+	z-index: 4;	
+}
+.producto{
+	box-shadow: 0px 0px 10px -4px;
+}
+.text-smaller{
+	font-size: smaller;
+}
+.b-r{
+	border-right: 1px solid #DDD;
+}
+.b-t{
+	border-top: 1px solid #CCC;
+}
+.p-20{
+	padding: 20px 40px !important;
+}
+.m-t-50{
+	margin-top: 50px;
+}
+.about-us{
+}
+
+.phrase{
+	/*font-weight: bolder;*/
+	font-style: italic;
+	background-color: rgba(0,0,0,0.04);
+	color: #AAA;
+	font-size: 20px;
+	text-align: center;
+}
+.inline-block{
+	display: inline-block;
+}
+.partner-descrip-container{
+	vertical-align: bottom;
+	background-size: 100px;
+	padding-left: 130px;
+	background-position: left; 
+	background-repeat: no-repeat;
+}
+.partner-row{
+	display: block;
+    color: #000;
+}
+.bg-more-faded{
+	background-color: #EEE !important;
+}
+.bg-white{
+	background-color: #FFF !important;
+}
+.b-b{
+	border-bottom: 1px solid #DDD;
+}
+.logo{
+	background-image: url('../images/logo.png');
+	background-repeat: no-repeat;
+	background-size: 70px;
+	background-position: left;
+	padding-left: 80px;
+}
+
+.about-title{
+	color: #AAA;
+	font-family: 'Iglesia';
+}
+
+.navbar-primary.navbar-inverse .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.9);
+}

@@ -1,0 +1,12 @@
+<div class="container">
+    <a ng-repeat="marca in marcas | filter: {id : '!1'} | orderBy: 'nombre'" class="partner-row my-3 mx-5 bg-white py-3 px-4 b-b" ng-href="{{marca.link}}" target="_blank">
+    	<div class="partner-descrip-container inline-block ml-3" ng-style="{'background-image': 'url(images/{{marca.foto}})'}">
+    		<div class="partner-name">
+    			<b>{{marca.nombre}}</b>
+    		</div>
+    		<div class="partner-description">
+    			<p ng-bind-html="marca.descripcion"></p>
+    		</div>
+    	</div>
+    </a>
+</div>
