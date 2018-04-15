@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Micromédica Épsilon</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -11,7 +11,6 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css" />
     <!-- endbower -->
-    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css" />
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
@@ -28,35 +27,53 @@
     <!-- Add your site or application content here -->
     <div class="header mb-0">
         <div class="navbar navbar-toggleable-md navbar-primary navbar-inverse bg-primary" role="navigation">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand logo ml-5" href="#" style="font-size: 2rem;">
-                <!-- <div class="logo"></div> -->
-                <span>Micromédica Epsilon</span>
-            </a>
-            <div class="collapse navbar-collapse py-4" id="navbarSupportedContent" name="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto mr-5">
-                    <li class="nav-item mx-1">
-                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item mx-1">
-                        <a class="nav-link" href="#!/about">Quiénes Somos</a>
-                    </li>
-                    <li class="nav-item mx-1">
-                        <a class="nav-link" href="#!/productos">Productos</a>
-                    </li>
-                    <li class="nav-item mx-1">
-                        <a class="nav-link" href="#!/partners">Empresas Representadas</a>
-                    </li>
-                    <li class="nav-item mx-1">
-                        <a class="nav-link" href="#!/contact">Contacto</a>
-                    </li>
-                </ul>
-            </div>
+                <a class="navbar-brand logo" href="#">
+                    <span>Micromédica Epsilon</span>
+                </a>
+                <div class="collapse navbar-collapse py-4" id="navbarSupportedContent" name="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mr-5">
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#!/about">Quiénes Somos</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#!/productos">Productos</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#!/partners">Empresas Representadas</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link" href="#!/contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler navbar-toggler-right" ng-click="vm.openMenu = !vm.openMenu" ng-init="vm = {openMenu: false}" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="hidden-lg-up" id="navbarSupportedContent" ng-show="vm.openMenu" ng-click="vm.openMenu = false;" name="navbarSupportedContent">
+                    <ul class="ml-auto mr-5" style="list-style: none;">
+                        <li class="">
+                            <a class="phonelink" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="">
+                            <a class="phonelink" href="#!/about">Quiénes Somos</a>
+                        </li>
+                        <li class="">
+                            <a class="phonelink" href="#!/productos">Productos</a>
+                        </li>
+                        <li class="">
+                            <a class="phonelink" href="#!/partners">Empresas Representadas</a>
+                        </li>
+                        <li class="">
+                            <a class="phonelink" href="#!/contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
         </div>
     </div>
-    <div ng-view=""></div>
+    <div ng-view=""  class="slide"></div>
     <!-- <div class="footer">
         <div class="container">
             <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
@@ -73,6 +90,7 @@
 
     ga('create', 'UA-XXXXX-X');
     ga('send', 'pageview');
+
     </script>
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->

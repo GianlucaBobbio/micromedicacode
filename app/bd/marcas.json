@@ -2,18 +2,20 @@
 	{
 		"id": 1,
 		"nombre": "Micromédica Epsilon",
-		"descripcion": "<b>Micromédica Epsilon</b> es una empresa dedicada a la fabricación, importación y reparación de instrumental oftalmológico y óptico. <br> Posee un laboratorio electrónico-mecánico y un grupo de profesionales de la ingeniería dedicados al desarrollo y asistencia técnica de los productos comercializados.",
+		"descripcion": "<b>Micromédica Epsilon</b> fue fundada en 1960 por el  Ing. Julio Manfredi. <br> En sus inicios se dedicó básicamente a dos actividades, la fabricación de equipos de radiofrecuencia para cirugía de retina y a la asistencia técnica en la distribución de los productos oftalmológicos Keeler (Inglaterra). <br> En 1985 comenzó a fabricar también equipos para criocirugía, vitréctomos y facoemulsificadores. <br> A partir de 1999 incorporó también la distribución en forma exclusiva para Argentina de distintos productos de las compañías internacionales Ocuserv Instruments (EEUU) y Opto (Brasil). <br> <br> En la actualidad, las personas responsables de Micromédica Epsilon son el Ing. Fernando Manfredi, UBA matrícula profesional Nº 9783 y el Ing. Ariel Manfredi, UTN matrícula profesional Nº11702, hijos del fundador. <br> La empresa tiene su sede en la Ciudad de Buenos Aires con un edificio propio de más de 300 m2 de superficie de trabajo con áreas delimitadas de desarrollo, fabricación, asistencia técnica, depósito, administración y show room. <br> Con respecto a la fabricación de equipamiento quirúrgico cuenta con equipos de alta tecnología comercializados tanto en el mercado local como en otros países. <br> Cuenta con un plantel de personal calificado de técnicos electrónicos y mecánicos y un fuerte equipo de ventas en la Ciudad de Buenos Aires y en las principales provincias de Argentina. <br>En este momento distribuye en forma exclusiva para Argentina los productos de las compañías internacionales Shin Nippon (Japón), DGH Technology Inc (EEUU), Medmont (Australia), A.R.C. LASER (Alemania) y Meccanottica Mazza (Italia).",
 		"foto": "yeoman.png",
 		"productos": [{
 			"nombre": "Optimus",
+			"width": 12,
 			"categoria": "Facoemulsificador",
-			"descrip": null,
-			"foto": "images/productos/Optimus-frente.jpg"
+			"descrip": "Es el equipo ideal para el cirujano que busca seguridad en la cirugía, ofrecida por su gran estabilidad de cámara, portabilidad, gracias a su reducido tamaño y alto rendimiento quirúrgico debido al bajo costo de su material descartable.",
+			"fotos": ["images/productos/Optimus-frente.jpg", "images/productos/Optimus-Control.jpg", "images/productos/Optimus-herramientasdemano.jpg", "images/productos/Optimus-pedal.jpg"]
 		},{
 			"nombre": "Optimus II",
+			"width": 12,
 			"categoria": "Facoemulsificador",
-			"descrip": null,
-			"foto": "images/productos/Optimus2frente.jpg"
+			"descrip": "Ofrece las más avanzadas prestaciones existentes para la cirugía de cataratas de hoy, como los múltiples modos de ultrasonido, la personalización de sus parámetros, el control de la presión de irrigación mediante su columna motorizada, la doble linealidad y la multifuncionalidad del pedal que permite cambiar tanto las funciones como las memorias de trabajo. <br> Es el equipo ideal para el cirujano que busca seguridad en la cirugía, ofrecida por su gran estabilidad de cámara, portabilidad, gracias a su reducido tamaño y alto rendimiento quirúrgico debido al bajo costo de su material descartable.",
+			"fotos": ["images/productos/Optimus2frente.jpg","images/productos/optimus2cuerpo.jpg","images/productos/optimus2pedal.jpg"]
 		}]
 	},{
 		"id": 2,
@@ -25,72 +27,72 @@
 			"nombre": "SL-40",
 			"categoria": "Lámpara de hendidura",
 			"descrip": "<a href='files/lamparahendidura-SL40.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/lamparahendidura-SL40.jpg"
+			"fotos": ["images/productos/lamparahendidura-SL40.jpg"]
 		},{
 			"nombre": "SL-45DX",
 			"categoria": "Lámpara de hendidura",
-			"descrip": null,
-			"foto": null
+			"descrip": "<a href='files/SL-45DX.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/SL-45DX.jpg"]
 		},{
 			"nombre": "SL-102",
 			"categoria": "Lámpara de hendidura",
-			"descrip": null,
-			"foto": null
+			"descrip": "<a href='files/SL-102.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/SL-102.jpg"]
 		},{
 			"nombre": "SL-203",
 			"categoria": "Lámpara de hendidura",
-			"descrip": null,
-			"foto": null
+			"descrip": "<a href='files/SL-203.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/SL-203.jpg"]
 		},{
 			"nombre": "SL-500",
 			"categoria": "Lámpara de hendidura",
-			"descrip": null,
-			"foto": null
+			"descrip": "<a href='files/SL-500.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/SL-500.jpg"]
 		},{
 			"nombre": "XL-1",
 			"categoria": "Lámpara de hendidura",
-			"descrip": null,
-			"foto": null
+			"descrip": "<a href='files/XL-1.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/XL-1.jpg"]
 		},{
 			"nombre": "K-900",
 			"categoria": "Autorefractokeratómetro",
 			"descrip": "<a href='files/autorefractoqueratometro.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/autorefractoqueratometro.jpg"
+			"fotos": ["images/productos/autorefractoqueratometro.jpg"]
 		},{
 			"nombre": "OP-2",
 			"categoria": "Microscopio quirúrgico",
 			"descrip": "<a href='files/microscopioquirurgico-op2.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/microscopioquirurgico-op2.jpg"
+			"fotos": ["images/productos/microscopioquirurgico-op2.jpg"]
 		},{
 			"nombre": "NCT-200",
 			"categoria": "Tonómetro de no contacto",
 			"descrip": "<a href='files/tonometronocontactontc200.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/tonometronocontactontc200.jpg"
+			"fotos": ["images/productos/tonometronocontactontc200.jpg"]
 		},{
 			"nombre": "LM-15",
 			"categoria": "Lensómetro manual",
 			"descrip": "<a href='files/lensometromanual-lm15.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/lensometromanual-lm15.jpg"
+			"fotos": ["images/productos/lensometromanual-lm15.jpg"]
 		},{
 			"nombre": "DL-900",
 			"categoria": "Lensómetro digital",
 			"descrip": "<a href='files/lensometrodigital.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/lensometrodigital.jpg"
+			"fotos": ["images/productos/lensometrodigital.jpg"]
 		},{
 			"nombre": "CT-1000",
 			"categoria": "Topógrafo corneal",
-			"descrip": null,
-			"foto": null
+			"descrip": "<a href='files/CT1000.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/CT1000.jpg"]
 		},{
 			"nombre": "CP-500",
 			"categoria": "Proyector de optotipos",
-			"descrip": null,
-			"foto": null
+			"descrip": "<a href='files/CP500.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/CP500.jpg"]
 		},{
 			"nombre": "DR-900",
 			"categoria": "Foróptero digital",
 			"descrip": "<a href='files/Foroptero900.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/Foroptero900.jpg"
+			"fotos": ["images/productos/Foroptero900.jpg"]
 		},{
 			"nombre": "RET-700",
 			"categoria": "Autorefractokeratómetro con topógrafo",
@@ -98,9 +100,9 @@
 			"foto": null
 		},{
 			"nombre": "SPM-700",
-			"categoria": null,
+			"categoria": "Microscopio especular",
 			"descrip": null,
-			"foto": null
+			"fotos": ["images/productos/SPM-700.jpg"]
 		}]
 	},{
 		"id": 3,
@@ -112,17 +114,17 @@
 			"nombre": "DGH-6000",
 			"categoria": "Regla biométrica",
 			"descrip": "<a href='files/reglabiometricaDHG6000.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/reglabiometricaDHG6000.png"
+			"fotos": ["images/productos/reglabiometricaDHG6000.png"]
 		},{
 			"nombre": "PACHETTE 4",
 			"categoria": "Paquímetro",
 			"descrip": "<a href='files/paquimetro.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/paquimetro.png"
+			"fotos": ["images/productos/paquimetro.png"]
 		},{
 			"nombre": "DGH-8000",
 			"categoria": "Ecógrafo",
 			"descrip": "<a href='files/ecografo.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/ecografo.jpg"
+			"fotos": ["images/productos/ecografo.jpg"]
 		}]
 	},{
 		"id": 4,
@@ -134,12 +136,12 @@
 			"nombre": "M-700",
 			"categoria": "Campímetro",
 			"descrip": "<a href='files/Campimetro700.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/Campimetro700.jpg"
+			"fotos": ["images/productos/Campimetro700.jpg"]
 		},{
 			"nombre": "E300",
 			"categoria": "Topógrafo corneal",
 			"descrip": null,
-			"foto": "images/productos/topografo.jpg"
+			"fotos": ["images/productos/topografo.jpg"]
 		}]
 	},{
 		"id": 5,
@@ -151,27 +153,27 @@
 			"nombre": "CLASSIC diodo pumped frequency doubled Nd:YAG laser 532 nm (green)",
 			"categoria": "CLASSIC 532 nm",
 			"descrip": "<a href='http://www.arclaser.de/en/products/slt-laser-cito-532.html' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/Yaglaser.png"
+			"fotos": ["images/productos/Yaglaser.png"]
 		},{
 			"nombre": "Q-LAS PCL5 Z nd:YAG Laser",
 			"categoria": "YAG-Laser 1064 nm",
 			"descrip": "<a href='files/Yaglaser.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/Yaglaser.png"
+			"fotos": ["images/productos/Yaglaser.png"]
 		},{
 			"nombre": "FOX 810 nm",
 			"categoria": "810 nm",
 			"descrip": "<a href='files/fox.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/fox.jpg"
+			"fotos": ["images/productos/fox.jpg"]
 		},{
 			"nombre": "CETUS Q-switched Real laser cataract surgery",
 			"categoria": "Nano laser (phaco laser)",
 			"descrip": "<a href='files/nanolaser.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/nanolaser.jpg"
+			"fotos": ["images/productos/nanolaser.jpg"]
 		},{
 			"nombre": "CITO frequency doubled Q-switch Nd:YAG Laser 532 nm",
 			"categoria": "CITO 532 nm Microchip tech",
 			"descrip": "<a href='http://www.arclaser.de/en/products/slt-laser-cito-532.html' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/cito.png"
+			"fotos": ["images/productos/cito.png"]
 		},{
 			"nombre": "ENDO 514 nm",
 			"categoria": "Argon wavelenght",
@@ -188,7 +190,7 @@
 			"nombre": "10.010.00/ONE",
 			"categoria": "Columna para refracción",
 			"descrip": "<a href='files/10.010.00ONE.pdf' target='_blank'>Link a descripción</a>",
-			"foto": "images/productos/10.010.00ONE.jpg"
+			"fotos": ["images/productos/10.010.00ONE.jpg"]
 		}]
 	}
 ]

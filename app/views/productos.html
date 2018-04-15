@@ -1,6 +1,6 @@
-<div class="container-fluid bg-more-faded" ng-init="vm = {marcaSeleccionada: marcas[0], categoriaSeleccionada: marcas[0].productos[0].categoria}">
+<div class="container-fluid bg-more-faded mt-4" style="max-width: 1300px;" ng-init="vm = {marcaSeleccionada: marcas[0], categoriaSeleccionada: marcas[0].productos[0].categoria, productoSeleccionado: null}">
     <div class="row no-gutters">
-        <div class="col-lg-2 ml-5 lista-marcas bg-white">
+        <div class="col-md-2 lista-marcas bg-white hidden-sm-down">
             <div class="bg-faded px-3 py-3">
                 <b>Marcas</b>
             </div>
@@ -8,7 +8,7 @@
                 {{marca.nombre}}
             </div>
         </div>
-        <div class="col-lg-2 lista-categorias  bg-white">
+        <div class="col-md-2 lista-categorias bg-white bg-white hidden-sm-down">
             <div class="bg-faded px-3 py-3 pt-4">
                 <b>Categorías</b>
             </div>
@@ -19,28 +19,58 @@
                 {{producto.categoria}}
             </div>
         </div>
-        <div class="col-lg-7 px-4 pt-2">
+        <div class="col-md-2 bg-white hidden-md-up">
+            <div class="bg-faded px-3 py-3" ng-click="vm.verMarcas = !vm.verMarcas;" ng-init="vm.verMarcas = false;">
+                <span><b>Marca Seleccionada:</b> {{vm.marcaSeleccionada.nombre}}</span>
+            </div>
+            <div ng-repeat="marca in marcas" ng-show="vm.verMarcas" class="productos-marca px-3 py-3" ng-click="vm.marcaSeleccionada = marca; vm.categoriaSeleccionada = null; vm.verMarcas = false; vm.verCategorias = false" ng-class="{'bg-primary text-white': vm.marcaSeleccionada == marca}">
+                {{marca.nombre}}
+            </div>
+        </div>
+        <div class="col-md-2 lista-categorias bg-white hidden-md-up">
+            <div class="bg-faded px-3 py-3" ng-click="vm.verCategorias = !vm.verCategorias;" ng-init="vm.verCategorias = false;">
+                <span><b>Categoría Seleccionada:</b> {{vm.categoriaSeleccionada || "Todas"}}</span>
+            </div>
+            <div class="productos-marca px-3 py-3" ng-show="vm.verCategorias" ng-click="vm.categoriaSeleccionada = null; vm.verMarcas = false; vm.verCategorias = false" ng-class="{'bg-primary text-white': vm.categoriaSeleccionada == null}">
+                Todos
+            </div>
+            <div ng-repeat="producto in vm.marcaSeleccionada.productos | unique:'categoria'" ng-show="vm.verCategorias" class="productos-marca px-3 py-3" ng-click="vm.categoriaSeleccionada = producto.categoria; vm.verMarcas = false; vm.verCategorias = false" ng-class="{'bg-primary text-white': vm.categoriaSeleccionada == producto.categoria}">
+                {{producto.categoria}}
+            </div>
+        </div>
+        <div class="col-md-7 px-4 pt-2">
             <div class="row">
-                <div class="col-md-4 p-2" ng-repeat="producto in vm.marcaSeleccionada.productos" ng-show="!vm.categoriaSeleccionada">
-                    <div class="p-3 producto bg-white">
-                        <div class="background-contain" style="height: 100px;" ng-style="{'background-image':'url(' + producto.foto + ')'}" ng-show="producto.foto"></div>
-                        <div style="line-height: 100px; text-align: center;" ng-show="!producto.foto"><i>Sin foto del producto</i></div>
+                <div class="col-md-4 p-2" ng-class="{'col-md-6': producto.width == 12}" ng-repeat="producto in vm.marcaSeleccionada.productos" ng-show="!vm.categoriaSeleccionada">
+                    <div class="p-3 producto bg-white shadow" ng-click="vm.productoSeleccionado = producto">
+                        <div class="background-contain" style="height: 100px;" ng-style="{'background-image':'url(' + producto.fotos[0] + ')'}" ng-show="producto.fotos[0]"></div>
+                        <div style="line-height: 100px; text-align: center;" ng-show="!producto.fotos[0]"><i>Sin foto del producto</i></div>
                         <div class="text-primary text-center font-weight-bold py-3">{{producto.nombre}}</div>
                         <div class="text-muted text-smaller" ng-bind-html="producto.descrip" ng-show="producto.descrip"></div>
                         <div class="text-muted text-smaller" ng-show="!producto.descrip"><i>Sin descripción</i></div>
                     </div>
                 </div>
-
-                <div class="col-md-4 p-2" ng-repeat="producto in vm.marcaSeleccionada.productos | filter: {categoria : vm.categoriaSeleccionada}" ng-show="vm.categoriaSeleccionada">
-                    <div class="p-3 producto bg-white">
-                        <div class="background-contain" style="height: 100px;" ng-style="{'background-image':'url(' + producto.foto + ')'}" ng-show="producto.foto"></div>
-                        <div style="line-height: 100px; text-align: center;" ng-show="!producto.foto"><i>Sin foto del producto</i></div>
+                <div class="col-md-4 p-2" ng-class="{'col-md-6': producto.width == 12}" ng-repeat="producto in vm.marcaSeleccionada.productos | filter: {categoria : vm.categoriaSeleccionada}" ng-show="vm.categoriaSeleccionada">
+                    <div class="p-3 producto bg-white shadow" ng-click="vm.productoSeleccionado = producto">
+                        <div class="background-contain" style="height: 100px;" ng-style="{'background-image':'url(' + producto.fotos[0] + ')'}" ng-show="producto.fotos[0]"></div>
+                        <div style="line-height: 100px; text-align: center;" ng-show="!producto.fotos[0]"><i>Sin foto del producto</i></div>
                         <div class="text-primary text-center font-weight-bold py-3">{{producto.nombre}}</div>
                         <div class="text-muted text-smaller" ng-bind-html="producto.descrip" ng-show="producto.descrip"></div>
                         <div class="text-muted text-smaller" ng-show="!producto.descrip"><i>Sin descripción</i></div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="fotosProductoContainer hidden-sm-down" ng-if="vm.productoSeleccionado">
+        <div class="fotosProducto shadow">
+            <slick infinite="true" autoplay="true" dots="true" style="padding: 10px 0px; background-color: #FFF;">
+                <div class="slide-img" style="background-color: transparent;" ng-repeat="foto in vm.productoSeleccionado.fotos" ng-style="{'background-image':'url(' + foto + ')'}"></div>
+            </slick>
+            <div class="cerrar-carro" ng-click="vm.productoSeleccionado = null">x</div>
+            <div style="line-height: 100px; text-align: center;" ng-show="!vm.productoSeleccionado.fotos[0]"><i>Sin foto del producto</i></div>
+            <div class="text-primary text-center font-weight-bold py-3">{{vm.productoSeleccionado.nombre}}</div>
+            <div style="padding: 20px" class="text-muted" ng-bind-html="vm.productoSeleccionado.descrip" ng-show="vm.productoSeleccionado.descrip"></div>
+            <div style="padding: 20px" class="text-muted" ng-show="!vm.productoSeleccionado.descrip"><i>Sin descripción</i></div>
         </div>
     </div>
 </div>

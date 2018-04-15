@@ -1,14 +1,16 @@
 <div class="container">
     <div class="about-title mt-4">
         <h1>
-			Micromédica Epsilon
-		</h1>
+            Micromédica Epsilon
+        </h1>
     </div>
-    <div class="about-us p-4 my-4 bg-white b-b">
-        <p ng-bind-html="marcas[0].descripcion">
+    <div class="about-us my-4 bg-white b-b shadow">
+        <p class="p-4" ng-bind-html="marcas[0].descripcion.split('<br> <br>')[0]">
         </p>
-    </div>
-    <div class="phrase p-3">
-        "Equipamiento oftalmológico y óptico con la asistencia post venta que nos caracteriza"
+        <div class="phrase p-4">
+            "Equipamiento oftalmológico y óptico con la asistencia post venta que nos caracteriza"
+        </div>
+        <p class="p-4" ng-bind-html="marcas[0].descripcion.split('<br> <br>')[1]">
+        </p>
     </div>
 </div>

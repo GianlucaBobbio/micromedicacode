@@ -21,6 +21,10 @@ angular
     $http.get("bd/marcas.json").then(function(data) {
       $rootScope.marcas = data.data;
       console.log(data);
+      $rootScope.menuOpened = false;
+      $rootScope.openMenu = function() {
+        $rootScope.menuOpened = $rootScope.menuOpened;
+      }
     })
   })
   .config(function ($routeProvider) {
