@@ -41,7 +41,7 @@
             <div class="bg-white p-4 shadow">
                 <p class="title b-b pb-3 text-muted"><b>Empresas representadas</b></p>
                 <p>
-                    <span ng-repeat="marca in marcas | filter: {id : '!1'} | orderBy: 'nombre'"> &nbsp · &nbsp {{marca.nombre}}<br></span>
+                    <span ng-repeat="marca in marcas | filter: {id : '!1'} | orderBy: 'id'"> &nbsp · &nbsp {{marca.nombre}}<br></span>
                 </p>
                 <p class="text-right">
                     <a class="nav-link" href="#!/partners">Ver más</a>
