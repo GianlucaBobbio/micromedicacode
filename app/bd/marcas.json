@@ -29,6 +29,11 @@
 			"descrip": "<a href='files/lamparahendidura-SL40.pdf' target='_blank'>Link a descripción</a>",
 			"fotos": ["images/productos/lamparahendidura-SL40.jpg"]
 		},{
+			"nombre": "SL-95",
+			"categoria": "Lámpara de hendidura",
+			"descrip": "<a href='files/lamparahendidura-SL40.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/lamparahendidura-SL40.jpg"]
+		},{
 			"nombre": "SL-45DX",
 			"categoria": "Lámpara de hendidura",
 			"descrip": "<a href='files/SL-45DX.pdf' target='_blank'>Link a descripción</a>",
@@ -153,7 +158,7 @@
 			"nombre": "CLASSIC diodo pumped frequency doubled Nd:YAG laser 532 nm (green)",
 			"categoria": "CLASSIC 532 nm",
 			"descrip": "<a href='files/classic.pdf' target='_blank'>Link a descripción</a>",
-			"fotos": ["images/productos/Yaglaser.png"]
+			"fotos": ["images/productos/classic.jpg"]
 		},{
 			"nombre": "Q-LAS PCL5 Z nd:YAG Laser",
 			"categoria": "YAG-Laser 1064 nm",
@@ -201,23 +206,92 @@
 		"productos":[{
 			"nombre":"Carl MK2",
 			"categoria":"Silla para cirujano",
-			"descrip":"",
+			"descrip":"<a href='files/MK2.pdf' target='_blank'>Link a descripción</a>",
 			"fotos":["images/productos/CarlMK2.gif"]
 		},{
 			"nombre":"Carl Foot",
 			"categoria":"Silla para cirujano",
-			"descrip":"",
+			"descrip":"<a href='files/carl.pdf' target='_blank'>Link a descripción</a>",
 			"fotos":["images/productos/CarlFoot.gif"]
 		},{
 			"nombre":"Rieye Mk1",
 			"categoria":"Camilla quirúrgica",
-			"descrip":"",
+			"descrip":"<a href='files/rieye.pdf' target='_blank'>Link a descripción</a>",
 			"fotos":["images/productos/RieyeMK1.gif"]
 		},{
 			"nombre":"Rieye Mk2S",
 			"categoria":"Camilla quirúrgica",
-			"descrip":"",
+			"descrip":"<a href='files/MK2S.pdf' target='_blank'>Link a descripción</a>",
 			"fotos":["images/productos/MK2S.gif"]
+		}]
+	},{
+		"id": 8,
+		"nombre": "Neitz",
+		"link": "",
+		"descripcion": "Desde su fundación en 1965 Neitz ha proporcionado un desarrollo único de productos especializados para la oftalmología perfeccionados a través de los años según las expectativas profesionales del área. Actualmente cuenta con un amplio abanico de Oftalmoscopios, Retinoscopios y Oftalmoscopios Binoculares Indirectos, que son preferidos en Japón y en más de 70 países. Su orgullo es crear productos que realmente contribuyan a la medicina.",
+		"foto": "neitz.jpg",
+		"productos": [{
+			"nombre": "Halogen Ophthalmoscope BXα-13",
+			"categoria": "Oftalmoscopios",
+			"descrip": "<a href='files/oftalmoscopios.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/BX-13.jpg"]
+		},{
+			"nombre": "Halogen Ophthalmoscope BXα-13A",
+			"categoria": "Oftalmoscopios",
+			"descrip": "<a href='files/oftalmoscopios.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/BX-13A.jpg"]
+		},{
+			"nombre": "Halogen Ophthalmoscope BXα-RC",
+			"categoria": "Oftalmoscopios",
+			"descrip": "<a href='files/oftalmoscopios.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/BX-RC.jpg"]
+		},{
+			"nombre": "Streak Retinoscope RX-3",
+			"categoria": "Retinoscopios",
+			"descrip": "<a href='files/RetinoscopiosNeitz.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/RX-3.jpg"]
+		},{
+			"nombre": "Streak Retinoscope RX-3A",
+			"categoria": "Retinoscopios",
+			"descrip": "<a href='files/RetinoscopiosNeitz.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/RX-3A.jpg"]
+		},{
+			"nombre": "Streak Retinoscope RX-RC",
+			"categoria": "Retinoscopios",
+			"descrip": "<a href='files/RetinoscopiosNeitz.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/RX-RC.jpg"]
+		},{
+			"nombre": "IO-α Halogen",
+			"categoria": "OBI",
+			"descrip": "<a href='files/halogen.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/halogen.jpg"]
+		},{
+			"nombre": "IO-α LED",
+			"categoria": "OBI",
+			"descrip": "<a href='files/halogen.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/led.jpg"]
+		}]
+	},{
+		"id": 9,
+		"nombre": "Frey",
+		"link": "",
+		"descripcion": "Frey se fundó en el año 2005 como una empresa familiar para desarrollar dispositivos de diagnóstico oftálmicos y optométricos, especialmente en etapa temprana de glaucoma y enfermedades de niveles más altos de retina, entregando tecnología exclusiva y moderna.<br>Actualmente ofrecen una nueva dimensión competitiva en la industria en lo que refiere a su línea de campímetros y los clientes más exigentes pueden adquirir una tecnología mejorada y de alta calidad a un precio competitivo.",
+		"foto": "frey.jpg",
+		"productos": [{
+			"nombre": "AP-50",
+			"categoria": "Campímetro",
+			"descrip": "<a href='files/freyperimeter.pdf' target='_blank'>Link a descripción</a><br><a href='http://www.freymedical.eu/produkt/11/AP-50' target='_blank'>Link a la página</a>",
+			"fotos": ["images/productos/AP-50.jpg"]
+		},{
+			"nombre": "AP250/250BY",
+			"categoria": "Campímetro",
+			"descrip": "<a href='files/freyperimeter.pdf' target='_blank'>Link a descripción</a><br><a href='http://www.freymedical.eu/produkt/3/AP-250250BY' target='_blank'>Link a la página</a>",
+			"fotos": ["images/productos/AP-250.jpg"]
+		},{
+			"nombre": "AP-300",
+			"categoria": "Campímetro",
+			"descrip": "<a href='files/freyperimeter.pdf' target='_blank'>Link a descripción</a><br><a href='http://www.freymedical.eu/produkt/2/AP-300' target='_blank'>Link a la página</a>",
+			"fotos": ["images/productos/AP-300.jpg"]
 		}]
 	}
 ]
