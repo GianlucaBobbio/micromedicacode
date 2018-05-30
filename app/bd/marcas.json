@@ -8,7 +8,7 @@
 			"nombre": "Optimus",
 			"width": 12,
 			"categoria": "Facoemulsificador",
-			"descrip": "Es el equipo ideal para el cirujano que busca seguridad en la cirugía, ofrecida por su gran estabilidad de cámara, portabilidad, gracias a su reducido tamaño y alto rendimiento quirúrgico debido al bajo costo de su material descartable.<br><br> <a href='files/folletoptimus.jpg' target='_blank'>Link a descripción</a>",
+			"descrip": "Es el equipo ideal para el cirujano que busca seguridad en la cirugía, ofrecida por su gran estabilidad de cámara, portabilidad, gracias a su reducido tamaño y alto rendimiento quirúrgico debido al bajo costo de su material descartable.<br><br> <a href='images/folletoptimus.jpg' target='_blank'>Link a descripción</a>",
 			"fotos": ["images/productos/Optimus-frente.jpg", "images/productos/Optimus-Control.jpg", "images/productos/Optimus-herramientasdemano.jpg", "images/productos/Optimus-pedal.jpg"]
 		},{
 			"nombre": "Optimus II",
@@ -108,28 +108,6 @@
 			"categoria": "Bipupilómetro",
 			"descrip": "<a href='files/PD822.pdf' target='_blank'>Link a descripción</a>",
 			"fotos": ["images/productos/pd82.jpg"]
-		}]
-	},{
-		"id": 5,
-		"nombre": "DGH",
-		"link": "http://dghtechnology.com/",
-		"descripcion": "DGH Technology Inc. es una empresa fundada en Estados unidos en 1982, dedicada exclusivamente a la medición ultrasónica de parámetros oculares. <br> Entre sus productos se pueden encontrar paquímetros, reglas biométricas y ecógrafos oculares. <br> Desde 1982 ha comercializado más de 25000 productos en más de 50 países.",
-		"foto": "dgh.png",
-		"productos": [{
-			"nombre": "DGH-6000",
-			"categoria": "Regla biométrica",
-			"descrip": "<a href='files/reglabiometricaDHG6000.pdf' target='_blank'>Link a descripción</a>",
-			"fotos": ["images/productos/reglabiometricaDHG6000.png"]
-		},{
-			"nombre": "PACHETTE 4",
-			"categoria": "Paquímetro",
-			"descrip": "<a href='files/paquimetro.pdf' target='_blank'>Link a descripción</a>",
-			"fotos": ["images/productos/paquimetro.png"]
-		},{
-			"nombre": "DGH-8000",
-			"categoria": "Ecógrafo",
-			"descrip": "<a href='files/ecografo.pdf' target='_blank'>Link a descripción</a>",
-			"fotos": ["images/productos/ecografo.jpg"]
 		}]
 	},{
 		"id": 7,
@@ -292,6 +270,28 @@
 			"categoria": "Campímetro",
 			"descrip": "<a href='files/freyperimeter.pdf' target='_blank'>Link a descripción</a><br><a href='http://www.freymedical.eu/produkt/2/AP-300' target='_blank'>Link a la página</a>",
 			"fotos": ["images/productos/AP-300.jpg"]
+		}]
+	},{
+		"id": 9,
+		"nombre": "Micro Medical Devices (MMD)",
+		"link": "http://micromedinc.com/",
+		"descripcion": "Fundado por expertos en las disciplinas médicas, de redes informáticas y de electrónica integrada, MMD es un innovador líder en la entrega de dispositivos de ultrasonido de mano para la industria de la salud. Sus productos incluyen biómetros A-Scan con capacidad de inmersión ultrasónica, paquímetros, B-Scans y dispositivos de combinación A-Scan y paquímetro.",
+		"foto": "mmd2.png",
+		"productos": [{
+			"nombre": "Mobile USB B Scan",
+			"categoria": "Ecógrafo",
+			"descrip": "<a href='files/mobile_usb.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/mobile_usb.png"]
+		},{
+			"nombre": "P2000FP",
+			"categoria": "Paquímetro",
+			"descrip": "<a href='files/p2000fp.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/p2000fp.png"]
+		},{
+			"nombre": "A2000 USB",
+			"categoria": "Regla Biométrica",
+			"descrip": "<a href='files/A2000.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/A2000.jpg"]
 		}]
 	}
 ]
