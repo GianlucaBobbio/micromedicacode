@@ -2,7 +2,7 @@
     <div class="row bg-faded py-2">
         <div class="col">
             <!-- <div class="row pb-2"><div class="col text-center grey-small font-italic">Representamos</div></div> -->
-            <a class="nav-link" href="#!/partners">
+            <a class="nav-link" href="#!/productos">
                 <div class="container">
                     <div class="row py-1" style="height: 40px;">
                         <div ng-repeat="marca in marcas | filter: {id : '!1'} | orderBy: 'id'" class="background-contain col partners-logo mx-2" ng-style="{'background-image': 'url(images/{{marca.foto}})'}" ng-show="marca.foto != null"></div>
@@ -18,11 +18,11 @@
             <div class="col col-sm-12">
                 <slick infinite="true" autoplay="true" dots="true">
                     <div class="slide-img shadow" style="background-image:url(images/slides/5.jpg);"></div>
+                    <div class="slide-img shadow" style="background-image:url(images/slides/6.jpg);"></div>
+                    <div class="slide-img shadow" style="background-image:url(images/slides/neitz.jpg);"></div>
                     <div class="slide-img shadow" style="background-image:url(images/slides/1.jpg);"></div>
-                    <div class="slide-img shadow" style="background-image:url(images/slides/2.jpg);"></div>
                     <div class="slide-img shadow" style="background-image:url(images/slides/3.jpg);"></div>
                     <div class="slide-img shadow" style="background-image:url(images/slides/4.jpg);"></div>
-                    <div class="slide-img shadow" style="background-image:url(images/slides/6.jpg);"></div>
                     <div class="slide-img shadow" style="background-image:url(images/slides/7.jpg);"></div>
                 </slick>
             </div>
@@ -43,7 +43,7 @@
         </div>
         <div class="col col-lg-5 p-3">
             <div class="bg-white p-4 shadow mb-4 d-none d-sm-block">
-                <img src="images/noticia.jpg" class="event" alt="">
+                <img src="images/varios.jpg" class="event" alt="">
             </div>
             <div class="bg-white p-4 shadow">
                 <p class="title b-b pb-3 text-muted"><b>Empresas representadas</b></p>

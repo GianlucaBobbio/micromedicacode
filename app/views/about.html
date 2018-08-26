@@ -5,8 +5,14 @@
         </h1>
     </div>
     <div class="about-us my-4 bg-white b-b shadow">
-        <p class="p-4" ng-bind-html="marcas[0].descripcion.split('<br> <br>')[0]">
-        </p>
+        <div class="row no-gutters">
+            <div class="col-md-7">
+                <p class="p-4 mt-3" ng-bind-html="marcas[0].descripcion.split('<br> <br>')[0]">
+                </p>
+            </div>
+            <div class="col-md-5" style="background-image: url(images/about.jpg); background-size: cover; background-position: center; min-height: 300px;">
+            </div>
+        </div>
         <div class="phrase p-4">
             "Equipamiento oftalmológico y óptico con la asistencia post venta que nos caracteriza"
         </div>

@@ -1,8 +1,8 @@
 [
 	{
 		"id": 1,
+		"descripcion": "<b>Micromédica Epsilon</b> fue fundada en 1960 por el  Ing. Julio Manfredi. <br> En sus inicios se dedicó básicamente a dos actividades, la fabricación de equipos de radiofrecuencia para cirugía de retina y a la asistencia técnica en la distribución de los productos oftalmológicos Keeler (Inglaterra). <br> En 1985 comenzó a fabricar también equipos para criocirugía, vitréctomos y facoemulsificadores. <br> A partir de 1999 incorporó también la distribución en forma exclusiva para Argentina de distintos productos de las compañías internacionales Ocuserv Instruments (EEUU) y Opto (Brasil).<br>En este momento <b> distribuye en forma exclusiva </b> para Argentina los productos de las compañías internacionales <b> Shin Nippon (Japón), Neitz (Japón), A.R.C. LASER (Alemania), MMD Micro Medical Devices (EEUU), Frey (Polonia), Rini (Suecia), Meccanottica Mazza (Italia) y Medmont (Australia) </b>. <br> <br> En la actualidad, las personas responsables de Micromédica Epsilon son el Ing. Fernando Manfredi, UBA matrícula profesional Nº 9783 y el Ing. Ariel Manfredi, UTN matrícula profesional Nº11702, hijos del fundador. <br> La empresa tiene su sede en la Ciudad de Buenos Aires con un edificio propio de más de 300 m2 de superficie de trabajo con áreas delimitadas de desarrollo, fabricación, asistencia técnica, depósito, administración y show room. <br> Con respecto a la fabricación de equipamiento quirúrgico cuenta con equipos de alta tecnología comercializados tanto en el mercado local como en otros países. <br> Cuenta con un plantel de personal calificado de técnicos electrónicos y mecánicos y un fuerte equipo de ventas en la Ciudad de Buenos Aires y en las principales provincias de Argentina.",
 		"nombre": "Micromédica Epsilon",
-		"descripcion": "<b>Micromédica Epsilon</b> fue fundada en 1960 por el  Ing. Julio Manfredi. <br> En sus inicios se dedicó básicamente a dos actividades, la fabricación de equipos de radiofrecuencia para cirugía de retina y a la asistencia técnica en la distribución de los productos oftalmológicos Keeler (Inglaterra). <br> En 1985 comenzó a fabricar también equipos para criocirugía, vitréctomos y facoemulsificadores. <br> A partir de 1999 incorporó también la distribución en forma exclusiva para Argentina de distintos productos de las compañías internacionales Ocuserv Instruments (EEUU) y Opto (Brasil). <br> <br> En la actualidad, las personas responsables de Micromédica Epsilon son el Ing. Fernando Manfredi, UBA matrícula profesional Nº 9783 y el Ing. Ariel Manfredi, UTN matrícula profesional Nº11702, hijos del fundador. <br> La empresa tiene su sede en la Ciudad de Buenos Aires con un edificio propio de más de 300 m2 de superficie de trabajo con áreas delimitadas de desarrollo, fabricación, asistencia técnica, depósito, administración y show room. <br> Con respecto a la fabricación de equipamiento quirúrgico cuenta con equipos de alta tecnología comercializados tanto en el mercado local como en otros países. <br> Cuenta con un plantel de personal calificado de técnicos electrónicos y mecánicos y un fuerte equipo de ventas en la Ciudad de Buenos Aires y en las principales provincias de Argentina. <br>En este momento distribuye en forma exclusiva para Argentina los productos de las compañías internacionales Shin Nippon (Japón), DGH Technology Inc (EEUU), Medmont (Australia), A.R.C. LASER (Alemania) y Meccanottica Mazza (Italia).",
 		"foto": "yeoman.png",
 		"productos": [{
 			"nombre": "Optimus",
@@ -60,7 +60,7 @@
 			"fotos": ["images/productos/XL-1.jpg"]
 		},{
 			"nombre": "K-900",
-			"categoria": "Autorefractokeratómetro",
+			"categoria": "Autorrefractor con keratómetro",
 			"descrip": "<a href='files/autorefractoqueratometro.pdf' target='_blank'>Link a descripción</a>",
 			"fotos": ["images/productos/autorefractoqueratometro.jpg"]
 		},{
@@ -101,13 +101,24 @@
 		},{
 			"nombre": "SPM-700",
 			"categoria": "Microscopio especular",
-			"descrip": null,
+			"descrip": "<a href='files/SPM-700_en.pdf' target='_blank'>Link a descripción</a>",
 			"fotos": ["images/productos/SPM-700.jpg"]
 		},{
 			"nombre": "PD METER PD82II",
 			"categoria": "Bipupilómetro",
 			"descrip": "<a href='files/PD822.pdf' target='_blank'>Link a descripción</a>",
 			"fotos": ["images/productos/pd82.jpg"]
+		},{
+			"nombre": "RET-700",
+			"categoria": "Autorrefractor con keratómetro",
+			"descrip": "<a href='files/RET-700_en.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/ret700.jpg"]
+		}
+		,{
+			"nombre": "RET-700",
+			"categoria": "Topógrafo corneal",
+			"descrip": "<a href='files/RET-700_en.pdf' target='_blank'>Link a descripción</a>",
+			"fotos": ["images/productos/ret700.jpg"]
 		}]
 	},{
 		"id": 7,
