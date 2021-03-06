@@ -189,29 +189,19 @@
 	},{
 		"id": 4,
 		"nombre": "Rini",
-		"link": "http://www.rini.se/indram_gb.html",
+		"link": "https://rinicompany.com/",
 		"descripcion": "Rini Ergonomics es una empresa sueca de investigación y desarrollo innovador desde mediados de 1990. Provee una amplia gama de soluciones y productos ergonómicos  de calidad, diseñados exclusivamente para el tratamiento quirúrgico ofreciendo un entorno de trabajo cómodo y productivo en lo que respecta a las sillas para cirujano, mesas quirúrgicas y unidades de transporte de pacientes.",
 		"foto": "rini.jpg",
 		"productos":[{
-			"nombre":"Carl MK2",
+			"nombre":"Sillas quirúrgicas",
 			"categoria":"Silla para cirujano",
-			"descrip":"<a href='files/MK2.pdf' target='_blank'>Link a descripción</a>",
-			"fotos":["images/productos/CarlMK2.gif"]
+			"descrip":"<a href='https://rinicompany.com/product-categories/surgeon-chairs/' target='_blank'>Link a descripción</a>",
+			"fotos":["images/productos/SillaQuirurgica.jpg"]
 		},{
-			"nombre":"Carl Foot",
-			"categoria":"Silla para cirujano",
-			"descrip":"<a href='files/carl.pdf' target='_blank'>Link a descripción</a>",
-			"fotos":["images/productos/CarlFoot.gif"]
-		},{
-			"nombre":"Rieye Mk1",
+			"nombre":"Camillas quirúrgicas",
 			"categoria":"Camilla quirúrgica",
-			"descrip":"<a href='files/rieye.pdf' target='_blank'>Link a descripción</a>",
-			"fotos":["images/productos/RieyeMK1.gif"]
-		},{
-			"nombre":"Rieye Mk2S",
-			"categoria":"Camilla quirúrgica",
-			"descrip":"<a href='files/MK2S.pdf' target='_blank'>Link a descripción</a>",
-			"fotos":["images/productos/MK2S.gif"]
+			"descrip":"<a href='https://rinicompany.com/products/operating-table-rieye-mk2s-r6/' target='_blank'>Link a descripción</a>",
+			"fotos":["images/productos/CamillaQuirurgica.jpg"]
 		}]
 	},{
 		"id": 8,

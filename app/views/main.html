@@ -30,9 +30,6 @@
     </div>
     <div class="row">
         <div class="col col-lg-7 p-3">
-            <div class="bg-white p-4 mb-4 shadow d-sm-none">
-                <img src="images/noticia.jpg" class="event" alt="">
-            </div>
             <div class="bg-white p-4 shadow">
                 <p class="title b-b pb-3 text-muted"><b>Quiénes Somos</b></p>
                 <p ng-bind-html="marcas[0].descripcion.split('<br> <br>')[1]"></p>
@@ -42,9 +39,9 @@
             </div>
         </div>
         <div class="col col-lg-5 p-3">
-            <div class="bg-white p-4 shadow mb-4 d-none d-sm-block">
+            <a class="bg-white p-4 shadow mb-4 d-none d-sm-block" href="#!/productos">
                 <img src="images/varios.jpg" class="event" alt="">
-            </div>
+            </a>
             <div class="bg-white p-4 shadow">
                 <p class="title b-b pb-3 text-muted"><b>Empresas representadas</b></p>
                 <p>
